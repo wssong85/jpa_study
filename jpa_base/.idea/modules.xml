@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ex1-hello-jpa/ex1-hello-jpa.iml" filepath="$PROJECT_DIR$/ex1-hello-jpa/ex1-hello-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-shop/jpa-shop.iml" filepath="$PROJECT_DIR$/jpa-shop/jpa-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jpa_base.iml" filepath="$PROJECT_DIR$/.idea/jpa_base.iml" />
+    </modules>
+  </component>
+</project>
