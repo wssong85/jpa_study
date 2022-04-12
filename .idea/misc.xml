@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/jpa-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/jpashop/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jpashop" />
         <module name="jpa-basic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jpa-basic" target="11" />
+      <module name="jpashop" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/jpa.iml" filepath="$PROJECT_DIR$/.idea/jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-basic/jpa-basic.iml" filepath="$PROJECT_DIR$/jpa-basic/jpa-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpashop/jpashop.iml" filepath="$PROJECT_DIR$/jpashop/jpashop.iml" />
     </modules>
   </component>
 </project>
