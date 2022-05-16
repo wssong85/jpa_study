@@ -16,27 +16,15 @@ public class JpaMain {
     tx.begin();
 
     try {
-      Member member1 = Member.builder()
-          .name("A")
-          .build();
-      em.persist(member1);
 
-      Member member2 = Member.builder()
-          .name("A")
-          .build();
-      em.persist(member2);
+      Team team = new Team();
+      team.setName("TeamA");
+      em.persist(team);
 
-      Member member3 = Member.builder()
-          .name("A")
-          .build();
-      em.persist(member3);
-
-//      Member member = em.find(Member.class, 38L);
-//      member.setName("AA");
-//      System.out.println("=====================");
-//      em.detach(member);
-//      Member member2 = em.find(Member.class, 38L);
-//      System.out.println("member2.toString() = " + member2.toString());
+      Member member = new Member();
+      member.setUsername("member1");
+      member.setTeamId(team.getId());
+      em.persist(member);
 
       tx.commit();
     } catch (Exception e) {

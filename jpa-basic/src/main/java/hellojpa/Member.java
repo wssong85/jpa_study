@@ -9,18 +9,15 @@ import javax.persistence.*;
 @Setter
 @ToString
 @Entity
-@SequenceGenerator(sequenceName = "member_sequence_name", name = "member_name", initialValue = 1, allocationSize = 5)
 public class Member {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "member_name")
+  @GeneratedValue
   private Long id;
 
-  private String name;
+  @Column(name = "USERNAME")
+  private String username;
 
-  @Builder
-  public Member(Long id, String name) {
-    this.id = id;
-    this.name = name;
-  }
+  @Column(name = "TEAM_ID")
+  private Long teamId;
 }
